@@ -1,0 +1,13 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+
+  button {
+    @include button-style;
+    font-size: 18px;
+  }
+}

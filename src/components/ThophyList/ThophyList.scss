@@ -1,0 +1,48 @@
+.thophy {
+  width: 100%;
+
+  color: white;
+
+  &__title {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  &__empty {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto; // Permite rolagem horizontal caso os cards ultrapassem a largura
+    padding-bottom: 10px; // Espaço para scrollbar
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  }
+
+  &__card {
+    width: 240px;
+    padding: 9px;
+    height: 70px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  &__name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  &__character {
+    font-size: 12px;
+    color: #a0a0a0;
+  }
+}

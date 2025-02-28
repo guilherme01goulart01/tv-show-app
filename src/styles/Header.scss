@@ -1,0 +1,18 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+.show-header {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  color: $primary-color;
+
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 16px;
+    color: $secondary-color;
+  }
+}
