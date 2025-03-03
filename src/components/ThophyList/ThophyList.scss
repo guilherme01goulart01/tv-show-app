@@ -16,8 +16,8 @@
   &__list {
     display: flex;
     gap: 12px;
-    overflow-x: auto; // Permite rolagem horizontal caso os cards ultrapassem a largura
-    padding-bottom: 10px; // Espaço para scrollbar
+    overflow-x: auto;
+    padding-bottom: 10px;
     scrollbar-width: thin;
     scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
   }
